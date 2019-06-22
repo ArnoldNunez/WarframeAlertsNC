@@ -1,3 +1,3 @@
 Warframe Alerts NC
 
-Improvement on previous Warframe Alerts project.
+Warframe alerts project using own backend built on .net core.
