@@ -1,0 +1,16 @@
+﻿/**
+ * Headings stylesheet
+ */
+
+.heading1 {
+    padding: .2em 0 .1em 0;
+    /*background-color: rgba(240, 240, 240, 1);*/
+}
+
+.heading1--white {
+    color: black;
+}
+
+.heading1--outlined {
+    text-shadow: 0px 0px 4px rgb(240, 240, 240);
+}

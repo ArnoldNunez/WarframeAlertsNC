@@ -1,0 +1,55 @@
+﻿
+@{
+    Layout = null;
+    ViewBag.Title = "Warframe Alerts";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <link href="~/Styles/alert.css" rel="stylesheet" />
+    <link href="~/Styles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/body.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/header.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/heading.css" rel="stylesheet" type="text/css" />
+
+    <link href="~/Styles/index.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+
+
+    <script src="~/Scripts/Alert.js"></script>
+    <script src="~/Scripts/IndexViewModel.js"></script>
+    <script src="~/Scripts/IndexView.js"></script>
+    <script src="~/Scripts/CountdownTimer.js"></script>
+    <script src="~/Scripts/Index.js"></script>
+
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    @{ Html.RenderPartial("_MainHeaderPartial"); }
+
+    <div class="content">
+        @{ Html.RenderPartial("_ContentNavigationView"); }
+
+        <div class="alerts">
+
+        </div>
+
+        <div class="invasions">
+
+        </div>
+
+        <div class="syndicates">
+
+        </div>
+    </div>
+
+    <div class="background-layer"></div>
+</body>
+</html>

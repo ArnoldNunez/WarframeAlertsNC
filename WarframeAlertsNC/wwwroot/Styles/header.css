@@ -1,0 +1,53 @@
+﻿/**
+ * Header class stylesheet.
+ */
+
+
+.header {
+    text-align: center;
+}
+
+.header--main {
+    width: 100%;
+}
+
+.header__nav {
+    /*background-color: rgba(240, 240, 240, 1);*/
+}
+
+
+.header__links {
+    padding: .5em;
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+}
+
+.header__link.active--link {
+    background-color: none;
+    color: rgba(44, 53, 49, 1);
+    text-decoration: underline;
+}
+
+.ul-inline {
+}
+
+.ul-inline li {
+    display: inline-block;
+    height: auto;
+}
+
+.ul-inline li a {
+    display: block;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.ul-inline li a:hover {
+    background-color: none;
+    color: rgba(94, 103, 99, 1);
+}
